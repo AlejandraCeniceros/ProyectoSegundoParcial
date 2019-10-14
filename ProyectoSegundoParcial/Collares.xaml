@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="ProyectoSegundoParcial.Collares"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ProyectoSegundoParcial"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Codigo del producto:" VerticalAlignment="Top" Margin="39,111,0,0" />
+        <TextBox x:Name="CollaresCodigo" HorizontalAlignment="Left" Height="23" Margin="173,104,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Descripcion:" VerticalAlignment="Top" Margin="39,144,0,0"/>
+        <TextBox x:Name="CollaresDescripcion" HorizontalAlignment="Left" Height="23" Margin="173,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Descuento:" VerticalAlignment="Top" Margin="39,176,0,0"  />
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Precio" VerticalAlignment="Top" Margin="41,205,0,0" />
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Proovedor:" VerticalAlignment="Top" Margin="39,237,0,0" />
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Material:" VerticalAlignment="Top" Margin="41,269,0,0" />
+        <RadioButton x:Name="Collares1" Content="Oro" HorizontalAlignment="Left" Margin="198,274,0,0" VerticalAlignment="Top" FontSize="14"  />
+        <RadioButton x:Name="Collares2" Content="Plata" HorizontalAlignment="Left" Margin="122,272,0,0" VerticalAlignment="Top" FontSize="14" />
+
+        <TextBlock x:Name="Pagos" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Pagos" VerticalAlignment="Top" Margin="397,105,0,0" />
+        <ComboBox x:Name="CPagos" HorizontalAlignment="Left" Margin="554,99,0,0" VerticalAlignment="Top" Width="176" Height="22">
+            <ComboBoxItem>Efectivo</ComboBoxItem>
+            <ComboBoxItem>Deposito</ComboBoxItem>
+        </ComboBox>
+
+        <TextBlock x:Name="CCantidades" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Text="Cantidad por paquete:" Margin="414,163,0,0"/>
+        <CheckBox x:Name="CcheckBox1" Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="446,217,0,0"/>
+        <CheckBox x:Name="CcheckBox2" Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="498,217,0,0"/>
+        <CheckBox x:Name="CcheckBox3" Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="552,217,0,0"/>
+        <CheckBox x:Name="CcheckBox4" Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="608,217,0,0"/>
+        <CheckBox x:Name="CcheckBox5" Content="10" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="668,217,0,0"/>
+        <TextBox x:Name="Collares3" HorizontalAlignment="Left" Height="23" Margin="173,170,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189" FontSize="16"/>
+        <TextBox x:Name="Collares4" HorizontalAlignment="Left" Height="23" Margin="173,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189" FontSize="16"/>
+        <TextBox x:Name="Collares5" HorizontalAlignment="Left" Height="23" Margin="173,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189" FontSize="16"/>
+        <TextBox x:Name="Collares6" HorizontalAlignment="Left" Height="23" Margin="173,237,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189" FontSize="16"/>
+
+    </Grid>
+</UserControl>

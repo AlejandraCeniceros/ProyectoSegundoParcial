@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="ProyectoSegundoParcial.Medallas"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ProyectoSegundoParcial"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Codigo del producto:" VerticalAlignment="Top" Margin="51,89,0,0" />
+        <TextBox x:Name="MedallasCodigo" HorizontalAlignment="Left" Height="23" Margin="185,82,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Descripcion:" VerticalAlignment="Top" Margin="51,122,0,0" />
+        <TextBox x:Name="MedallasDescripcion" HorizontalAlignment="Left" Height="23" Margin="185,116,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Descuento:" VerticalAlignment="Top" Margin="51,154,0,0" />
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Precio" VerticalAlignment="Top" Margin="53,183,0,0" />
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Proovedor:" VerticalAlignment="Top" Margin="51,215,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Material:" VerticalAlignment="Top" Margin="53,247,0,0"/>
+        <RadioButton x:Name="Medallas1" Content="Oro" HorizontalAlignment="Left" Margin="210,252,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton x:Name="Medallas2" Content="Plata" HorizontalAlignment="Left" Margin="134,250,0,0" VerticalAlignment="Top" FontSize="14" />
+
+        <TextBlock x:Name="Pagos" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Pagos" VerticalAlignment="Top" Margin="409,83,0,0" Width="135"/>
+        <ComboBox x:Name="MPagos" HorizontalAlignment="Left" Margin="566,77,0,0" VerticalAlignment="Top" Width="176">
+            <ComboBoxItem>Efectivo</ComboBoxItem>
+            <ComboBoxItem>Deposito</ComboBoxItem>
+        </ComboBox>
+        <TextBlock x:Name="MCantidades" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Text="Cantidad por paquete:" Margin="426,141,0,0"/>
+        <CheckBox x:Name="McheckBox1" Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="458,195,0,0"/>
+        <CheckBox x:Name="McheckBox2" Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="510,195,0,0"/>
+        <CheckBox x:Name="McheckBox3" Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="564,195,0,0"/>
+        <CheckBox x:Name="McheckBox4" Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="620,195,0,0"/>
+        <CheckBox x:Name="McheckBox5" Content="10" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="680,195,0,0"/>
+        <TextBox x:Name="Medallas3" HorizontalAlignment="Left" Height="23" Margin="185,148,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189" FontSize="16"/>
+        <TextBox x:Name="Medallas4" HorizontalAlignment="Left" Height="23" Margin="185,183,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189" FontSize="16"/>
+        <TextBox x:Name="Medallas5" HorizontalAlignment="Left" Height="23" Margin="185,183,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189" FontSize="16"/>
+        <TextBox x:Name="Medallas6" HorizontalAlignment="Left" Height="23" Margin="185,215,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189" FontSize="16"/>
+
+    </Grid>
+</UserControl>

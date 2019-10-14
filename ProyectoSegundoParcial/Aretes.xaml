@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="ProyectoSegundoParcial.Aretes"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ProyectoSegundoParcial"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="0,-2,0,2" RenderTransformOrigin="0.474,0.531">
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Codigo del producto:" VerticalAlignment="Top" Margin="48,78,0,0"/>
+        <TextBox x:Name="AretesCodigo" HorizontalAlignment="Left" Height="23" Margin="182,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Descripcion:" VerticalAlignment="Top" Margin="48,111,0,0" />
+        <TextBox x:Name="AretesDescripcion" HorizontalAlignment="Left" Height="23" Margin="182,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Descuento:" VerticalAlignment="Top" Margin="48,143,0,0"  />
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Precio" VerticalAlignment="Top" Margin="50,172,0,0" />
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Proovedor:" VerticalAlignment="Top" Margin="48,204,0,0" />
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Material:" VerticalAlignment="Top" Margin="50,236,0,0" />
+        <RadioButton x:Name="Aretes1" Content="Oro" HorizontalAlignment="Left" Margin="208,240,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton x:Name="Aretes2" Content="Plata" HorizontalAlignment="Left" Margin="132,238,0,0" VerticalAlignment="Top" FontSize="14"  />
+
+        <TextBlock x:Name="Pagos" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Pagos" VerticalAlignment="Top" Margin="406,72,0,0" Width="136"/>
+        <ComboBox x:Name="APagos" HorizontalAlignment="Left" Margin="564,66,0,0" VerticalAlignment="Top" Width="176"  Height="22">
+            <ComboBoxItem>Efectivo</ComboBoxItem>
+            <ComboBoxItem>Deposito</ComboBoxItem>
+        </ComboBox>
+        <TextBlock x:Name="ACantidades" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Text="Cantidad por paquete:" Margin="424,130,0,0"/>
+        <CheckBox x:Name="AcheckBox1" Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="456,184,0,0"/>
+        <CheckBox x:Name="AcheckBox2" Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="508,184,0,0"/>
+        <CheckBox x:Name="AcheckBox3" Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="562,184,0,0"/>
+        <CheckBox x:Name="AcheckBox4" Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="618,184,0,0"/>
+        <CheckBox x:Name="AcheckBox5" Content="10" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="678,184,0,0"/>
+        <TextBox x:Name="Aretes3" HorizontalAlignment="Left" Height="23" Margin="182,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" FontSize="16"/>
+        <TextBox x:Name="Aretes4" HorizontalAlignment="Left" Height="22" Margin="182,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" FontSize="16"/>
+        <TextBox x:Name="Aretes5" HorizontalAlignment="Left" Height="22" Margin="182,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" FontSize="16"/>
+        <TextBox x:Name="Aretes6" HorizontalAlignment="Left" Height="22" Margin="182,204,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" FontSize="16"/>
+
+    </Grid>
+</UserControl>
